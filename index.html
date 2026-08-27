@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Electrical Panel Design Technical Handbook - ACB, MCCB, MCB, ATS, Changeover, Contactors, Relays, Starters, SLD, GA, BOM, BOQ, Cable and Busbar.">
+<title>Electrical Panel Design Handbook</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">⚡ <span>PanelDesign<span class="accent">Hub</span></span></a>
+  <div class="top-actions">
+    <button id="themeBtn" class="icon-btn" title="Toggle theme">☀️</button>
+    <a class="github-btn" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+  </div>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search topics..." aria-label="Search topics">
+  </div>
+  <nav id="topicNav">
+    <p class="nav-title">HANDBOOK</p>
+    <a href="topics/acb.html">⚡ ACB</a>
+    <a href="topics/mccb.html">🔲 MCCB</a>
+    <a href="topics/mcb.html">▣ MCB</a>
+    <a href="topics/changeover.html">🔁 Changeover</a>
+    <a href="topics/ats.html">🔄 ATS</a>
+    <a href="topics/contactor.html">🔌 Contactor</a>
+    <a href="topics/relays.html">⚙️ Relays</a>
+    <a href="topics/starters.html">🚀 Motor Starters</a>
+    <a href="topics/sld.html">📐 SLD</a>
+    <a href="topics/ga-design.html">📏 GA Design</a>
+    <a href="topics/bom-boq.html">📋 BOM / BOQ</a>
+    <a href="topics/cable.html">🔗 Cable Selection</a>
+    <a href="topics/busbar.html">▤ Busbar</a>
+    <a href="topics/testing-safety.html">🛡️ Testing & Safety</a>
+  </nav>
+</aside>
+
+<main class="content">
+  <section class="hero">
+    <div class="eyebrow">TECHNICAL DOCUMENTATION</div>
+    <h1>Electrical Panel<br><span>Design Handbook</span></h1>
+    <p>A practical reference for low-voltage panel design, switchgear, control systems, drawings and documentation.</p>
+    <div class="hero-buttons">
+      <a class="primary-btn" href="#topics">Explore Handbook →</a>
+      <a class="secondary-btn" href="README.md">View README</a>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div><strong>14+</strong><span>Core Topics</span></div>
+    <div><strong>LV</strong><span>Panel Design</span></div>
+    <div><strong>CAD</strong><span>GA / SLD Focus</span></div>
+    <div><strong>2026</strong><span>Reference Edition</span></div>
+  </section>
+
+  <section id="topics">
+    <div class="section-head">
+      <div><div class="eyebrow">REFERENCE LIBRARY</div><h2>Explore Topics</h2></div>
+      <p>Switchgear • Control • Drawings • Documentation</p>
+    </div>
+    <div class="cards" id="cards">
+      <a class="card" data-key="acb air circuit breaker" href="topics/acb.html"><span>01</span><b>⚡ ACB</b><small>Air Circuit Breaker</small></a>
+      <a class="card" data-key="mccb moulded case circuit breaker" href="topics/mccb.html"><span>02</span><b>🔲 MCCB</b><small>Moulded Case Circuit Breaker</small></a>
+      <a class="card" data-key="mcb miniature circuit breaker" href="topics/mcb.html"><span>03</span><b>▣ MCB</b><small>Miniature Circuit Breaker</small></a>
+      <a class="card" data-key="changeover manual automatic mains dg" href="topics/changeover.html"><span>04</span><b>🔁 Changeover</b><small>Manual & Automatic Systems</small></a>
+      <a class="card" data-key="ats automatic transfer switch" href="topics/ats.html"><span>05</span><b>🔄 ATS</b><small>Automatic Transfer Switch</small></a>
+      <a class="card" data-key="contactor contact" href="topics/contactor.html"><span>06</span><b>🔌 Contactor</b><small>Power Switching</small></a>
+      <a class="card" data-key="relay control timer overload" href="topics/relays.html"><span>07</span><b>⚙️ Relays</b><small>Control • Timer • Overload</small></a>
+      <a class="card" data-key="dol star delta forward reverse starters motor" href="topics/starters.html"><span>08</span><b>🚀 Motor Starters</b><small>DOL • Star-Delta • F/R</small></a>
+      <a class="card" data-key="sld single line diagram" href="topics/sld.html"><span>09</span><b>📐 SLD</b><small>Single Line Diagram</small></a>
+      <a class="card" data-key="ga general arrangement drawing" href="topics/ga-design.html"><span>10</span><b>📏 GA Design</b><small>General Arrangement</small></a>
+      <a class="card" data-key="bom boq bill materials quantities" href="topics/bom-boq.html"><span>11</span><b>📋 BOM / BOQ</b><small>Project Documentation</small></a>
+      <a class="card" data-key="cable selection current voltage drop" href="topics/cable.html"><span>12</span><b>🔗 Cable</b><small>Selection Basics</small></a>
+      <a class="card" data-key="busbar copper aluminium current density" href="topics/busbar.html"><span>13</span><b>▤ Busbar</b><small>Selection & Withstand</small></a>
+      <a class="card" data-key="testing commissioning electrical safety" href="topics/testing-safety.html"><span>14</span><b>🛡️ Testing & Safety</b><small>Checks & Safe Work</small></a>
+    </div>
+    <p id="noResults" class="no-results">No topic found.</p>
+  </section>
+
+  <section class="callout">
+    <div><div class="eyebrow">DESIGN FLOW</div><h2>Requirement → SLD → Selection → GA → BOM → Testing</h2></div>
+    <p>Use the topic pages as a structured reference while developing panel documentation.</p>
+  </section>
+
+  <footer>
+    <strong>Electrical Panel Design Handbook</strong>
+    <span>Prepared by Abhijeet Tiwari • Educational / Engineering Reference</span>
+  </footer>
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
