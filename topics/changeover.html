@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="description" content="Changeover Systems - Electrical Panel Design Handbook"><title>Changeover Systems | PanelDesignHub</title><link rel="stylesheet" href="../style.css"></head>
+<body><header class="topbar"><a class="brand" href="../index.html">⚡ <span>PanelDesign<span class="accent">Hub</span></span></a><div class="top-actions"><button id="themeBtn" class="icon-btn">☀️</button><a class="github-btn" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a></div></header>
+<div class="layout"><aside class="sidebar"><div class="search-wrap"><input id="search" type="search" placeholder="Search topics..."></div><nav><p class="nav-title">HANDBOOK</p><a href="acb.html">⚡ ACB</a><a href="mccb.html">🔲 MCCB</a><a href="mcb.html">▣ MCB</a><a href="changeover.html">🔁 Changeover</a><a href="ats.html">🔄 ATS</a><a href="contactor.html">🔌 Contactor</a><a href="relays.html">⚙️ Relays</a><a href="starters.html">🚀 Motor Starters</a><a href="sld.html">📐 SLD</a><a href="ga-design.html">📏 GA Design</a><a href="bom-boq.html">📋 BOM / BOQ</a><a href="cable.html">🔗 Cable</a><a href="busbar.html">▤ Busbar</a><a href="testing-safety.html">🛡️ Testing & Safety</a></nav></aside>
+<main class="content"><article class="doc"><a class="back" href="../index.html">← Back to Handbook</a><div class="eyebrow">TECHNICAL REFERENCE</div><h1>Changeover Systems</h1><p class="lead">Manual & Automatic Changeover</p><h2>1. Introduction</h2><p>A changeover system transfers an electrical load from one power source to another.</p><h2>2. Types</h2><ul><li>Manual changeover</li><li>Electrical changeover</li><li>Automatic changeover</li><li>Mains-to-Mains</li><li>Mains-to-DG</li><li>Transformer-to-Transformer</li><li>Two-incomer / bus-coupler arrangements</li><li>Motorized breaker changeover</li></ul><h2>3. Basic Arrangement</h2><pre>SOURCE-1 → BREAKER-1 → LOAD
+SOURCE-2 → BREAKER-2 → LOAD</pre><h2>4. Mains-to-DG Sequence</h2><pre>MAINS FAILURE
+      ↓
+DG START COMMAND
+      ↓
+DG HEALTHY
+      ↓
+MAINS BREAKER OFF
+      ↓
+DG BREAKER ON
+      ↓
+LOAD ON DG</pre><h2>5. Return to Mains</h2><p>After mains becomes healthy for the required return delay, the DG breaker is opened and the mains breaker is closed according to the approved control sequence.</p><h2>6. Open Transition</h2><p>Break-before-make: first source OFF, then second source ON.</p><h2>7. Closed Transition</h2><p>Controlled temporary parallel operation requires suitable synchronization, protection, paralleling controls and interlocking.</p><div class="note">For a normal non-parallel system, the two source breakers must be appropriately interlocked to prevent unintended simultaneous connection.</div><div class="topic-nav"><a href="mcb.html">← Previous</a><a href="ats.html">Next →</a></div></article><footer><strong>Electrical Panel Design Handbook</strong><span>Prepared by Abhijeet Tiwari</span></footer></main></div><script src="../script.js"></script></body></html>
